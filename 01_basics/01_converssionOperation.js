@@ -52,3 +52,30 @@ NaN*/
 // let StringsomeNumber = String(someNumber);
 // console.log(StringsomeNumber);// here no. 33 now behaves as String no longer number
 // console.log(typeof StringsomeNumber); //Datatype is converted from string to number 
+
+
+// ******************************operation*******************************************
+
+let value = 3
+let valueInnegative = -value;
+console.log(valueInnegative);
+
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2^2)
+console.log(2**2)
+console.log(2%2)
+
+let str1 = "hello";
+let str2 = "Aayush";
+
+console.log(str1 + str2)
+
+console.log("1" +2);
+console.log(1 + "2");
+console.log("1" + 2 + 2); // output is 122 - here String is first so each next term is concated in that string 
+console.log(1 + 2 +"2"); // here first term is 3 and 2 concatenated in it 
+console.log((3+4) * 5 % 3);  // writng these types of code is not good for readability so avoid writting these kind of code 
